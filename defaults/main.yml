@@ -1,0 +1,11 @@
+---
+# defaults file for Rust
+install_source: default
+
+Ubuntu_source: Snap
+
+in_Toolbox: true
+
+in_Distrobox: true
+
+toolbox_container_name: "fedora-toolbox-{{ ansible_distribution_version }}"
